@@ -3,7 +3,7 @@ public class AverageSpeedInKilometers{
         double miles = 24 * 1.6;
         double kmh, hrs, minutes = 100.0;
 
-        hrs = 100.0 / 60.0;
+        hrs = minutes / 60.0;
         //System.out.println("the hours is: " + hrs + ".");
 
         kmh = miles / hrs;
