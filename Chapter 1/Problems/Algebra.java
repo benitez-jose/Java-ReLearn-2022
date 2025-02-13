@@ -1,3 +1,5 @@
+package Problems;
+
 public class Algebra{
     public static void main(String[] args){
         double a = 3.4, b = 50.2, c = 2.1;

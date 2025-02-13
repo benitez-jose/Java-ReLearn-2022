@@ -1,3 +1,5 @@
+package Problems;
+
 public class ApproximatePI{
     public static void main(String[] args){
         double pi1, pi2, piAvg;
