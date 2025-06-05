@@ -1,5 +1,0 @@
-public class ColumeOfCylinder{
-    public static void main(String[] args){
-        System.out.println("hello this is a test for volume of cylinder");
-    }
-}
