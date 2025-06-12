@@ -3,7 +3,7 @@
 *                   Exercise 1.11 for this program.
 */
 
-import java.util.Scanner;
+import java.util.*;
 
 public class PopulationProjection{
     public static void main(String[] args){
