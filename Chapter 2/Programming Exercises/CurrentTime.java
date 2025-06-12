@@ -9,6 +9,10 @@ public class CurrentTime{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
+        System.out.print("To display the time, enter the time zone offset to GMT now: ");
+
+        int offset = input.nextInt();
+
         //Obtain the total milliseconds since midnight, Jan 1, 1970
         long totalMilliseconds = System.currentTimeMillis();
 
@@ -29,6 +33,8 @@ public class CurrentTime{
 
         //Compute the current hour
         long currentHour = totalHours % 24;
+
+        currentHour += offset;
 
         //Display the results
         System.out.println("Current time is " + currentHour + ":"
